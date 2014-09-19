@@ -2,14 +2,17 @@
 <html>
 <head>
   <title>Dohdoh</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1>DohDoh</h1>
+<div class="header">
+  <h1>DohDoh</h1>
+  <h3>The DohDoh always forgets</h3>
+</div>
 <div class="wrapper">
-<%= yield %>
+  <%= yield %>
 </div>
 </body>
 </html>

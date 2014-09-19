@@ -1,0 +1,16 @@
+<ul style="list-style-type: none;">
+  <%= form_for @user do |f| %>
+    <li>
+      <%= f.label :email %>
+     <%= f.text_field :email %>
+    </li>
+
+    <li>
+      <%= f.label :password %>
+      <%= f.password_field :password_digest %>
+    </li>
+    <li>
+      <%= f.submit "Signup" %>
+    </li>
+    <% end %>
+ </ul>

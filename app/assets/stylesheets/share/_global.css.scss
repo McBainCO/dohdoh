@@ -1,18 +1,23 @@
 
+body {
+  background-color: #1abc9c;
+}
+
 
 .wrapper {
   padding-top: 5%;
   margin: auto;
-  text-align: center;
-  text-decoration-color: #ecf0f1;
+  width: 300px;
+  text-align: right;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size:24px;
-  color: #1abc9c;
+  color: #ecf0f1;
 }
 
 
-h1 {
+
+.header {
   font-family: 'Raleway', sans-serif;
   color: #ecf0f1;
   padding-left: 2%;
